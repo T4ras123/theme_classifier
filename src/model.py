@@ -17,7 +17,7 @@ class ThemeClassifier:
       
       
 if __name__ == "__main__":
-    themes = ['Finance', 'Fishing', 'Technology', 'Sports']
+    themes = ['Cashless', 'Fraud', 'Cards', 'Online Shopping']
     classifier = ThemeClassifier(themes)
 
     print(classifier.classify("ինչ է ձկնորսությունը?"))  
